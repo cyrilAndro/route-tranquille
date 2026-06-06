@@ -1,22 +1,13 @@
 {
-  "app": {"name": "Route Tranquille", "tagline": "Mirno i sigurno na putu"},
-  "accessibility": {"skip": "Pređi na sadržaj", "language": "Izaberite jezik", "navigation": "Glavna navigacija"},
-  "common": {"name": "Ime", "phone": "Telefon", "close": "Zatvori"},
-  "nav": {"home": "Početna", "emergency": "Hitno", "info": "Moji podaci"},
-  "home": {"eyebrow": "Pomoć na putu", "title": "Šta vam je potrebno?", "intro": "Dodirnite uslugu da biste je pronašli u blizini."},
-  "status": {"online": "Aplikacija radi i bez interneta", "offline": "Režim bez interneta je aktivan", "cacheError": "Režim bez interneta nije mogao da se uključi."},
-  "services": {"eyebrow": "U blizini", "title": "Korisne usluge", "fuel": "Benzinska pumpa", "rest": "Odmorište / kamp", "pharmacy": "Apoteka", "hospital": "Bolnica", "garage": "Auto-servis", "police": "Policija"},
-  "location": {"searching": "Tražimo vašu lokaciju…", "fallback": "Lokacija nije dostupna. Otvaramo opštu pretragu."},
-  "emergency": {
-    "buttonHint": "Prikaži brojeve za hitne slučajeve", "eyebrow": "Hitna pomoć", "title": "Brojevi za hitne slučajeve", "country": "Srbija", "hint": "Dodirnite broj da biste pozvali.",
-    "numbers": [{"label":"Hitna pomoć","number":"194"},{"label":"Policija","number":"192"},{"label":"Vatrogasci","number":"193"},{"label":"Evropski broj","number":"112"}]
-  },
-  "summary": {"eyebrow": "U slučaju potrebe", "title": "Moji podaci", "add": "Dodaj moje podatke", "edit": "Izmeni moje podatke"},
-  "info": {
-    "eyebrow": "Lični podaci", "title": "Moji podaci", "privacy": "Ovi podaci ostaju samo na ovom uređaju.",
-    "fullName": "Ime i prezime", "fullNamePlaceholder": "Npr. Marija Jovanović", "bloodType": "Krvna grupa", "bloodTypePlaceholder": "Npr. O+",
-    "allergies": "Poznate alergije", "allergiesPlaceholder": "Unesite svoje alergije", "medications": "Lekovi koje uzimate", "medicationsPlaceholder": "Unesite svoju terapiju",
-    "doctor": "Izabrani lekar", "emergencyContact": "Kontakt za hitne slučajeve", "insurance": "Broj osiguranja", "plate": "Registarska oznaka vozila",
-    "save": "Sačuvaj moje podatke", "saved": "Vaši podaci su sačuvani."
-  }
+  "accessibility":{"skip":"Pređi na sadržaj","language":"Izaberite jezik","navigation":"Glavna navigacija"},
+  "common":{"back":"Nazad"},
+  "nav":{"home":"Početna","help":"Pomoć"},
+  "home":{"eyebrow":"Jednostavna pomoć na putu","subtitle":"Jedno dugme da znate šta da uradite, gde ste i koga da pozovete.","helpButton":"TREBA VAM POMOĆ?","helpHint":"Pritisnite ovde ako imate problem","benefitPosition":"Pogledajte GPS lokaciju","benefitEmergency":"Pozovite hitne službe","benefitShare":"Pošaljite svoju lokaciju","benefitNearby":"Pronađite pomoć u blizini","breakdown":"Imam kvar","sick":"Nije mi dobro","lost":"Izgubio/la sam se"},
+  "help":{"title":"Režim pomoći","reassurance":"Dišite mirno. Vaša lokacija je prikazana. Možete je pozvati, kopirati ili podeliti.","emergencyTitle":"Pozovite hitne službe","emergencyCaution":"Ako ste u neposrednoj opasnosti, pozovite hitne službe.","nearbyTitle":"Pronađite pomoć u blizini"},
+  "screens":{"breakdownEyebrow":"Pomoć kod kvara","breakdownTitle":"Imam kvar","sickEyebrow":"Zdravstvena pomoć","sickTitle":"Nije mi dobro","lostEyebrow":"Pronađite put","lostTitle":"Izgubio/la sam se","lostGuidance":"Pošaljite ove koordinate bliskoj osobi kako bi mogla da vas pronađe."},
+  "location":{"title":"Moja trenutna lokacija","ready":"Pritisnite Osveži da biste dobili lokaciju.","locating":"Tražimo vašu lokaciju…","current":"Trenutna lokacija","lastKnown":"Poslednja poznata lokacija","noPosition":"Vaša lokacija trenutno nije dostupna.","latitude":"Geografska širina","longitude":"Geografska dužina","accuracy":"Preciznost","updatedAt":"Ažurirano:","updated":"Vaša lokacija je ažurirana.","denied":"Pristup lokaciji je odbijen. Možete ga dozvoliti u podešavanjima pregledača.","unavailable":"GPS ne može da pronađe lokaciju. Ostanite mirni i pokušajte ponovo.","timeout":"Traženje lokacije traje predugo. Pokušajte ponovo.","unsupported":"Ovaj pregledač ne može da pronađe vašu lokaciju.","error":"Lokacija nije pronađena. Pokušajte ponovo."},
+  "actions":{"refresh":"Osveži","copy":"Kopiraj lokaciju","copyGps":"Kopiraj GPS koordinate","share":"Podeli lokaciju","openMaps":"Otvori u Google Maps","openOsm":"Otvori u OpenStreetMap","openOsmShort":"OpenStreetMap","call112":"Pozovi 112","fuel":"Benzinska pumpa u blizini","garage":"Auto-servis u blizini","pharmacy":"Apoteka u blizini","hospital":"Bolnica u blizini"},
+  "share":{"positionPrefix":"Ovo je moja lokacija:","helpPrefix":"Potrebna mi je pomoć. Ovo je moja lokacija:","copied":"Lokacija je kopirana.","unavailableCopied":"Direktno deljenje nije dostupno. Lokacija je kopirana.","manualCopy":"Kopirajte ovaj tekst:"},
+  "network":{"online":"Aplikacija je spremna i ako izgubite mrežu","offline":"Režim bez interneta je aktivan","offlineNote":"Niste povezani. Sačuvana lokacija, kopiranje i poziv 112 su dostupni. Za mape je potreban internet.","mapsOffline":"Za mape je potrebna internet veza.","cacheError":"Režim bez interneta nije mogao da se uključi."},
+  "checklists":{"title":"Uradite sada","breakdown":{"items":["Sklonite se na bezbedno mesto","Uključite sva četiri pokazivača pravca","Obucite reflektujući prsluk","Zapišite ili podelite GPS lokaciju","Pozovite pomoć na putu ili hitne službe ako je potrebno"]},"sick":{"items":["Ostanite mirni","Sedite ili lezite ako je potrebno","Obavestite blisku osobu","Podelite lokaciju","Pozovite hitne službe ako je potrebno"]}}
 }
