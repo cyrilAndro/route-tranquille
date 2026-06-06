@@ -1,4 +1,4 @@
-const CACHE_NAME = "route-tranquille-v1";
+const CACHE_NAME = "route-tranquille-v2";
 const APP_SHELL = [
   "./",
   "./index.html",
