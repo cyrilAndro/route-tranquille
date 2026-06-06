@@ -1,22 +1,13 @@
 {
-  "app": {"name": "Route Tranquille", "tagline": "Votre route, en toute sérénité"},
-  "accessibility": {"skip": "Aller au contenu", "language": "Choisir la langue", "navigation": "Navigation principale"},
-  "common": {"name": "Nom", "phone": "Téléphone", "close": "Fermer"},
-  "nav": {"home": "Accueil", "emergency": "Urgence", "info": "Mes infos"},
-  "home": {"eyebrow": "Assistance de voyage", "title": "De quoi avez-vous besoin ?", "intro": "Touchez un service pour le trouver autour de vous."},
-  "status": {"online": "Application disponible hors ligne", "offline": "Mode hors ligne actif", "cacheError": "Le mode hors ligne n'a pas pu être activé."},
-  "services": {"eyebrow": "À proximité", "title": "Services utiles", "fuel": "Station-service", "rest": "Aire de repos", "pharmacy": "Pharmacie", "hospital": "Hôpital", "garage": "Garage", "police": "Police"},
-  "location": {"searching": "Recherche de votre position…", "fallback": "Position indisponible. Ouverture de la recherche générale."},
-  "emergency": {
-    "buttonHint": "Afficher les numéros d'urgence", "eyebrow": "Aide immédiate", "title": "Numéros d'urgence", "country": "France", "hint": "Touchez un numéro pour appeler.",
-    "numbers": [{"label":"SAMU","number":"15"},{"label":"Police","number":"17"},{"label":"Pompiers","number":"18"},{"label":"Urgence européenne","number":"112"}]
-  },
-  "summary": {"eyebrow": "En cas de besoin", "title": "Mes informations", "add": "Ajouter mes informations", "edit": "Modifier mes informations"},
-  "info": {
-    "eyebrow": "Fiche personnelle", "title": "Mes informations", "privacy": "Ces données restent uniquement sur cet appareil.",
-    "fullName": "Prénom / Nom", "fullNamePlaceholder": "Ex. Marie Dupont", "bloodType": "Groupe sanguin", "bloodTypePlaceholder": "Ex. O+",
-    "allergies": "Allergies connues", "allergiesPlaceholder": "Indiquez vos allergies", "medications": "Médicaments en cours", "medicationsPlaceholder": "Indiquez vos traitements",
-    "doctor": "Médecin traitant", "emergencyContact": "Contact d'urgence", "insurance": "Numéro d'assurance", "plate": "Plaque du véhicule",
-    "save": "Sauvegarder mes informations", "saved": "Vos informations ont bien été sauvegardées."
-  }
+  "accessibility":{"skip":"Aller au contenu","language":"Choisir la langue","navigation":"Navigation principale"},
+  "common":{"back":"Retour"},
+  "nav":{"home":"Accueil","help":"Aide"},
+  "home":{"eyebrow":"Aide simple sur la route","subtitle":"Un bouton pour savoir quoi faire, où vous êtes, et qui appeler.","helpButton":"BESOIN D’AIDE ?","helpHint":"Appuyez ici en cas de problème","benefitPosition":"Voir ma position GPS","benefitEmergency":"Appeler les urgences","benefitShare":"Envoyer ma position","benefitNearby":"Trouver une aide proche","breakdown":"Je suis en panne","sick":"Je suis malade","lost":"Je suis perdu"},
+  "help":{"title":"Mode aide","reassurance":"Respirez. Votre position est affichée. Vous pouvez appeler, copier ou partager votre localisation.","emergencyTitle":"Appeler les urgences","emergencyCaution":"En cas de danger immédiat, appelez les urgences.","nearbyTitle":"Trouver de l’aide proche"},
+  "screens":{"breakdownEyebrow":"Aide mécanique","breakdownTitle":"Je suis en panne","sickEyebrow":"Aide santé","sickTitle":"Je suis malade","lostEyebrow":"Retrouver son chemin","lostTitle":"Je suis perdu","lostGuidance":"Envoyez ces coordonnées à un proche pour qu’il puisse vous retrouver."},
+  "location":{"title":"Ma position actuelle","ready":"Appuyez sur Actualiser pour obtenir votre position.","locating":"Recherche de votre position…","current":"Position actuelle","lastKnown":"Dernière position connue","noPosition":"Votre position n’est pas disponible pour le moment.","latitude":"Latitude","longitude":"Longitude","accuracy":"Précision","updatedAt":"Mise à jour :","updated":"Votre position a été mise à jour.","denied":"L’accès à la position a été refusé. Vous pouvez l’autoriser dans les réglages du navigateur.","unavailable":"Le GPS ne trouve pas votre position. Restez au calme et réessayez.","timeout":"La recherche de position prend trop de temps. Réessayez dans un instant.","unsupported":"Ce navigateur ne permet pas de trouver votre position.","error":"La position n’a pas pu être obtenue. Réessayez dans un instant."},
+  "actions":{"refresh":"Actualiser","copy":"Copier ma position","copyGps":"Copier coordonnées GPS","share":"Partager ma position","openMaps":"Ouvrir dans Google Maps","openOsm":"Ouvrir dans OpenStreetMap","openOsmShort":"OpenStreetMap","call112":"Appeler le 112","fuel":"Station-service proche","garage":"Garage proche","pharmacy":"Pharmacie proche","hospital":"Hôpital proche"},
+  "share":{"positionPrefix":"Voici ma position :","helpPrefix":"J’ai besoin d’aide. Voici ma position :","copied":"Position copiée.","unavailableCopied":"Le partage direct n’est pas disponible sur cet appareil. Position copiée.","manualCopy":"Copiez ce texte :"},
+  "network":{"online":"Application prête, même en cas de perte de réseau","offline":"Mode hors ligne actif","offlineNote":"Vous êtes hors ligne. La position enregistrée, la copie et l’appel au 112 restent disponibles. Les cartes nécessitent Internet.","mapsOffline":"Les cartes nécessitent une connexion Internet.","cacheError":"Le mode hors ligne n’a pas pu être activé."},
+  "checklists":{"title":"À faire maintenant","breakdown":{"items":["Se mettre en sécurité","Allumer les feux de détresse","Mettre le gilet jaune","Noter ou partager la position GPS","Appeler l’assistance ou les urgences si nécessaire"]},"sick":{"items":["Rester au calme","S’asseoir ou s’allonger si besoin","Prévenir un proche","Partager la position","Appeler les urgences si nécessaire"]}}
 }
