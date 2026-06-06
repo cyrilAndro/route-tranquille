@@ -1,0 +1,22 @@
+{
+  "app": {"name": "Route Tranquille", "tagline": "Mirno i sigurno na putu"},
+  "accessibility": {"skip": "Pređi na sadržaj", "language": "Izaberite jezik", "navigation": "Glavna navigacija"},
+  "common": {"name": "Ime", "phone": "Telefon", "close": "Zatvori"},
+  "nav": {"home": "Početna", "emergency": "Hitno", "info": "Moji podaci"},
+  "home": {"eyebrow": "Pomoć na putu", "title": "Šta vam je potrebno?", "intro": "Dodirnite uslugu da biste je pronašli u blizini."},
+  "status": {"online": "Aplikacija radi i bez interneta", "offline": "Režim bez interneta je aktivan", "cacheError": "Režim bez interneta nije mogao da se uključi."},
+  "services": {"eyebrow": "U blizini", "title": "Korisne usluge", "fuel": "Benzinska pumpa", "rest": "Odmorište / kamp", "pharmacy": "Apoteka", "hospital": "Bolnica", "garage": "Auto-servis", "police": "Policija"},
+  "location": {"searching": "Tražimo vašu lokaciju…", "fallback": "Lokacija nije dostupna. Otvaramo opštu pretragu."},
+  "emergency": {
+    "buttonHint": "Prikaži brojeve za hitne slučajeve", "eyebrow": "Hitna pomoć", "title": "Brojevi za hitne slučajeve", "country": "Srbija", "hint": "Dodirnite broj da biste pozvali.",
+    "numbers": [{"label":"Hitna pomoć","number":"194"},{"label":"Policija","number":"192"},{"label":"Vatrogasci","number":"193"},{"label":"Evropski broj","number":"112"}]
+  },
+  "summary": {"eyebrow": "U slučaju potrebe", "title": "Moji podaci", "add": "Dodaj moje podatke", "edit": "Izmeni moje podatke"},
+  "info": {
+    "eyebrow": "Lični podaci", "title": "Moji podaci", "privacy": "Ovi podaci ostaju samo na ovom uređaju.",
+    "fullName": "Ime i prezime", "fullNamePlaceholder": "Npr. Marija Jovanović", "bloodType": "Krvna grupa", "bloodTypePlaceholder": "Npr. O+",
+    "allergies": "Poznate alergije", "allergiesPlaceholder": "Unesite svoje alergije", "medications": "Lekovi koje uzimate", "medicationsPlaceholder": "Unesite svoju terapiju",
+    "doctor": "Izabrani lekar", "emergencyContact": "Kontakt za hitne slučajeve", "insurance": "Broj osiguranja", "plate": "Registarska oznaka vozila",
+    "save": "Sačuvaj moje podatke", "saved": "Vaši podaci su sačuvani."
+  }
+}
