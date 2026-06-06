@@ -1,7 +1,7 @@
 {
   "name": "Route Tranquille",
   "short_name": "Route Tranquille",
-  "description": "Les services essentiels pour voyager sereinement en camping-car.",
+  "description": "Aide immédiate, position GPS et numéros d'urgence pour voyager sereinement.",
   "lang": "fr",
   "start_url": "./",
   "scope": "./",
@@ -10,17 +10,7 @@
   "background_color": "#f5f8f7",
   "theme_color": "#165c4f",
   "icons": [
-    {
-      "src": "./icons/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "./icons/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+    {"src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
   ]
 }
