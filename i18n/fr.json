@@ -1,0 +1,22 @@
+{
+  "app": {"name": "Route Tranquille", "tagline": "Votre route, en toute sérénité"},
+  "accessibility": {"skip": "Aller au contenu", "language": "Choisir la langue", "navigation": "Navigation principale"},
+  "common": {"name": "Nom", "phone": "Téléphone", "close": "Fermer"},
+  "nav": {"home": "Accueil", "emergency": "Urgence", "info": "Mes infos"},
+  "home": {"eyebrow": "Assistance de voyage", "title": "De quoi avez-vous besoin ?", "intro": "Touchez un service pour le trouver autour de vous."},
+  "status": {"online": "Application disponible hors ligne", "offline": "Mode hors ligne actif", "cacheError": "Le mode hors ligne n'a pas pu être activé."},
+  "services": {"eyebrow": "À proximité", "title": "Services utiles", "fuel": "Station-service", "rest": "Aire de repos", "pharmacy": "Pharmacie", "hospital": "Hôpital", "garage": "Garage", "police": "Police"},
+  "location": {"searching": "Recherche de votre position…", "fallback": "Position indisponible. Ouverture de la recherche générale."},
+  "emergency": {
+    "buttonHint": "Afficher les numéros d'urgence", "eyebrow": "Aide immédiate", "title": "Numéros d'urgence", "country": "France", "hint": "Touchez un numéro pour appeler.",
+    "numbers": [{"label":"SAMU","number":"15"},{"label":"Police","number":"17"},{"label":"Pompiers","number":"18"},{"label":"Urgence européenne","number":"112"}]
+  },
+  "summary": {"eyebrow": "En cas de besoin", "title": "Mes informations", "add": "Ajouter mes informations", "edit": "Modifier mes informations"},
+  "info": {
+    "eyebrow": "Fiche personnelle", "title": "Mes informations", "privacy": "Ces données restent uniquement sur cet appareil.",
+    "fullName": "Prénom / Nom", "fullNamePlaceholder": "Ex. Marie Dupont", "bloodType": "Groupe sanguin", "bloodTypePlaceholder": "Ex. O+",
+    "allergies": "Allergies connues", "allergiesPlaceholder": "Indiquez vos allergies", "medications": "Médicaments en cours", "medicationsPlaceholder": "Indiquez vos traitements",
+    "doctor": "Médecin traitant", "emergencyContact": "Contact d'urgence", "insurance": "Numéro d'assurance", "plate": "Plaque du véhicule",
+    "save": "Sauvegarder mes informations", "saved": "Vos informations ont bien été sauvegardées."
+  }
+}
